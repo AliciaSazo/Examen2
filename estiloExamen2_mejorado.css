@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body
+{
+    background: linear-gradient(100deg,#242533, #755a63);
+}
+header
+{
+
+
+display: flex;
+justify-content: space-between;/*Distribuir items uniformemente
+El primer item al inicio, el último al final*/
+background-color: rgba(43, 28, 23, 0.5);
+align-items: center;/*Se utiliza para centrar a los elementos*/
+padding: 10px;
+}
+
+#logo_Br
+{
+/*border: solid 1px;*/
+display: flex;
+align-items: center;
+text-decoration: none;
+color: silver;
+}
+
+#logo
+{
+height: 200px;
+width: 200px;
+margin-right: 20px;
+}
+
+#titulo_Empresa
+{
+font-size: 45px;
+}
+
+nav .link_Nav
+{
+padding-right: 15px;
+font-size: 30px;
+text-decoration: none;
+color: silver;
+font-weight: bold;/*Para aplicar negrita a la fuente*/
+
+}
+
+nav .link_Nav:hover
+{
+color: sienna;
+}
+
+/*CSS GRID*/
+
+.contenedor
+{
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+
+#Secc1{
+    /*border: solid;*/
+    margin-top: 50px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.flores{
+    text-align: center;
+}
+
+#Secc1 p{
+    text-align: justify;
+}
+
+
+#Secc2{
+    /*border: solid;*/
+    margin-top: 50px;
+    padding: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+#sub4{
+    text-align: center;
+    padding-left: 60px;
+    
+
+}
+
+#sub4 p{
+    text-align: justify;
+
+}
+
+.Secc3{
+    /*border: solid;*/
+    margin-top: 50px;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    text-align: center;
+    
+    
+}
+
+.Subtitulo5{
+    text-align: center;
+    
+    font-size: 16px;
+    
+}
+
+.Subtitulo5 p
+{
+    text-align: justify;
+}
+footer
+{
+    /*border: solid;*/
+    height: 150px;
+    text-align: center;
+
+}
+.SuB4{
+    text-align: center;
+}
